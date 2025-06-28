@@ -9,7 +9,7 @@ public class EcommerceApplication {
 
 	public static void main(String[] args) {
 		// load env variables from .env file
-		Dotenv dotenv = Dotenv.configure().load();ckea
+		Dotenv dotenv = Dotenv.configure().load();
 		dotenv.entries().forEach(entry -> System.
 						setProperty(entry.getKey(),entry.getValue()));
 
