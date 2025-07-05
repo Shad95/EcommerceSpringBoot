@@ -13,6 +13,7 @@ public class FakeStoreCategoryService implements ICategoryService{
     private final ICategoryGateway categoryGateway;
 
     public FakeStoreCategoryService(ICategoryGateway categoryGateway) {
+
         this.categoryGateway = categoryGateway;
     }
 
