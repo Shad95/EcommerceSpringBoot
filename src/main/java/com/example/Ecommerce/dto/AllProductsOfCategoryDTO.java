@@ -2,12 +2,14 @@ package com.example.Ecommerce.dto;
 
 import lombok.*;
 
+import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CategoryDTO {
+public class AllProductsOfCategoryDTO {
+    private Long categoryId;
     private String name;
-    private Long id;
+    private List<ProductDTO> products;
 }
